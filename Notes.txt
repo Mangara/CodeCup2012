@@ -1,0 +1,175 @@
+Completely random games have roughly the following distribution:
+31.7% wins for X
+26.7% wins for O
+41.6% draws
+
+(results are both average and median from 423 runs of 1 million games each, with a standard deviation of less than 0.05% each)
+
+Scores are distributed as follows:
+
+Average score for X		13.2
+Maximum score for X		30
+Average win score for X		22.9
+Average loss score for X	3.1
+Average draw score for X	12.3
+
+Average score for O		12.1
+Maximum score for O		29
+Average win score for O		22.9
+Average loss score for O	2.8
+Average draw score for O	12.3
+
+(results are both average and median from 93 runs of 1 million games each, with a standard deviation of less than 0.01 each)
+
+After 100.000.000 random playouts for the first move of X, the results are as follows:
+
+Bad moves (<12.7): non-adjacent double edge (same row/column is slightly better: +/- 0.05)
+
+Average score after playing BE: 12.66458292588402
+Average score after playing BH: 12.648229519775708
+Average score after playing BI: 12.658785053800505
+Average score after playing BL: 12.656794508654578
+Average score after playing BN: 12.690729249714236
+Average score after playing BO: 12.659800799349373
+Average score after playing CE: 12.654510496877753
+Average score after playing CH: 12.660895964226683
+Average score after playing CI: 12.657434377829059
+Average score after playing CL: 12.656966811908555
+Average score after playing CN: 12.65258031774369
+Average score after playing CO: 12.691665228314443
+Average score after playing EH: 12.683422786001447
+Average score after playing EL: 12.652919972199316
+Average score after playing EN: 12.627385462446831
+Average score after playing EO: 12.662405175216644
+Average score after playing HI: 12.660777079714121
+Average score after playing HN: 12.659850938136092
+Average score after playing HO: 12.668153376647057
+Average score after playing IL: 12.691395788447172
+Average score after playing IN: 12.65958664340916
+Average score after playing IO: 12.654206907467941
+Average score after playing LN: 12.646657114880627
+Average score after playing LO: 12.657285205701903
+
+Bad moves (<12.9): adjacent double edge
+
+Average score after playing BC: 12.709911267852807
+Average score after playing EI: 12.72136082355675
+Average score after playing HL: 12.71558768070396
+Average score after playing NO: 12.71287022803511
+
+Slightly bad moves (<13.2): corner and edge (same row/column is slightly better: +/- 0.05)
+
+Average score after playing AH: 12.977570966582824
+Average score after playing AL: 12.99847823321436
+Average score after playing AO: 12.992594290212152
+Average score after playing AB: 13.047475843563362
+Average score after playing AC: 13.048787442403215
+Average score after playing AE: 13.041410947119521
+Average score after playing AI: 13.032987795965216
+Average score after playing AN: 13.000535755379127
+Average score after playing BD: 13.063164024975984
+Average score after playing BM: 13.004899368693682
+Average score after playing BP: 13.004385780357524
+Average score after playing CD: 13.034667402373856
+Average score after playing CM: 12.9786136419897
+Average score after playing CP: 12.994056132266042
+Average score after playing DE: 12.996086479320423
+Average score after playing DI: 12.997288055936544
+Average score after playing DH: 13.053391632814256
+Average score after playing DL: 13.058419388576993
+Average score after playing DN: 13.004001894813847
+Average score after playing DO: 13.008807060036691
+Average score after playing EM: 13.046980630277393
+Average score after playing EP: 12.989899947669366
+Average score after playing HM: 12.99177345812335
+Average score after playing HP: 13.0523611242661
+Average score after playing IM: 13.037173393543252
+Average score after playing IP: 12.976954409418475
+Average score after playing LM: 13.006547514985762
+Average score after playing LP: 13.041011631455145
+Average score after playing MN: 13.048403629642078
+Average score after playing MO: 13.042941078973728
+Average score after playing NP: 13.038064717461232
+Average score after playing OP: 13.05646541334539
+
+Mediocre moves (<13.5): double corner or center and edge
+
+Average score after playing AD: 13.365363456935288
+Average score after playing AM: 13.388309132454633
+Average score after playing AP: 13.337811594168151
+Average score after playing BF: 13.404879566784054
+Average score after playing BG: 13.368104519950274
+Average score after playing BJ: 13.412525070557857
+Average score after playing BK: 13.366671225284493
+Average score after playing CF: 13.366104375645763
+Average score after playing CG: 13.407007432780325
+Average score after playing CJ: 13.358216235326546
+Average score after playing CK: 13.396219784542831
+Average score after playing DM: 13.328851756394196
+Average score after playing DP: 13.377386581116744
+Average score after playing EF: 13.415879438688563
+Average score after playing EG: 13.392731656576405
+Average score after playing EJ: 13.37000225318082
+Average score after playing EK: 13.366844978767991
+Average score after playing FH: 13.415828768259294
+Average score after playing FI: 13.374004435537614
+Average score after playing FL: 13.346770309499245
+Average score after playing FN: 13.408418232233542
+Average score after playing FO: 13.362439115638917
+Average score after playing GH: 13.407747959057511
+Average score after playing GI: 13.341650233274013
+Average score after playing GL: 13.365413923927495
+Average score after playing GN: 13.362829999831984
+Average score after playing GO: 13.404205128082063
+Average score after playing HJ: 13.361736536630069
+Average score after playing HK: 13.367323370136099
+Average score after playing IJ: 13.426194019104306
+Average score after playing IK: 13.396877922365153
+Average score after playing JL: 13.405313392328404
+Average score after playing JN: 13.42106039970481
+Average score after playing JO: 13.383752236619312
+Average score after playing KL: 13.414158971007947
+Average score after playing KN: 13.367898259737553
+Average score after playing KO: 13.404070161302894
+Average score after playing MP: 13.353565965376552
+
+Good moves (<14): center and corner
+
+Average score after playing AF: 13.723859917961336
+Average score after playing AG: 13.68465729385598
+Average score after playing AJ: 13.683617700030656
+Average score after playing AK: 13.707027550606949
+Average score after playing DF: 13.698866457355434
+Average score after playing DG: 13.724244418873372
+Average score after playing DJ: 13.7130522365242
+Average score after playing DK: 13.692131362275449
+Average score after playing FM: 13.70668020085049
+Average score after playing FP: 13.701958219843775
+Average score after playing GM: 13.71961307730532
+Average score after playing GP: 13.680738561511198
+Average score after playing JM: 13.7085619209281
+Average score after playing JP: 13.692370889340241
+Average score after playing KM: 13.687757793664261
+Average score after playing KP: 13.722828561987443
+
+Great moves (>14): double center
+
+Average score after playing FG: 14.13410535258929
+Average score after playing FJ: 14.119250883833232
+Average score after playing FK: 14.114981065776135
+Average score after playing GJ: 14.0979811571469
+Average score after playing GK: 14.112215868203146
+Average score after playing JK: 14.108673471837443
+
+Best move: FG
+
+
+After opponent plays FG, good moves are:
+Average score after playing FG: 12.040786572361524
+Average score after playing FJ: 12.020237481877329
+Average score after playing FK: 11.972463438297261
+Average score after playing GJ: 11.948613985273594
+Average score after playing GK: 11.985625
+Average score after playing JK: 12.006112689223688
+
+More evaluation (and probably strategy) is needed to reach a definitive conclusion.

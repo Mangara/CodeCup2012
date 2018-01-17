@@ -1,0 +1,23 @@
+Long term:
+ X Implement UCT tree search
+ - Implement alpha-beta tree search with Monte Carlo evaluation of states
+ 
+Short term:
+ - Figure out why Nautilus is giving time-outs and illegals in the caia test games
+ - Store components as an array with one entry per square on the board? Evaluate performance.
+ - Port smart collapse evaluation to Nautilus?
+ - Try adding smart collapse choices during simulation to Nautilus
+ - Try adding more state-dependant heuristics to the simulation playouts (complete rows of 2 and 3)
+ - Implement UCB in DrunkDuck -> MoltenMole ? (Nautilus -> FickleFish ? or NaughtyNautilus ?)
+ - DrunkDuck and Nautilus: Keep track of global time used. Use time saved by smart evaluation of collapse by distributing over next moves
+ - Nautilus evaluation function: return 1.0 on any full win, regardless of score
+ - Convert MoveNode's double array of child pointers to a single array, saving half the space, since any cell with i >= j is not used. Mapping of children to moves can be done by iterating through all possible moves in a fixed order.
+ - In UTC, don't create nodes for positions that are guaranteed draws (and are at depth > x?)
+ 
+ 
+Completed:
+ X Clean up QTTTGame to use binary board representation throughout
+ X Move state storing / restoring to Game instead of each player using its own
+ X Initialize first play priorities based on board position
+ X Clean up Node. Get rid of unneeded variables and evaluate performance.
+ X Create a MCPlayer that implements common MC behaviour and utility functions (like storeCurrentState, resetState, randomMove, playRandomGame, etc.)
